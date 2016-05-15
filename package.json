@@ -1,0 +1,16 @@
+{
+  "name": "whoami",
+  "version": "1.0.0",
+  "description": " get the IP address, language and operating system for browser",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Concepsheon Hall",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "header-parser": "^1.0.0",
+    "morgan": "^1.7.0"
+  }
+}
