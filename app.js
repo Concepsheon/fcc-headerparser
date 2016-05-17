@@ -3,8 +3,7 @@ var morgan = require("morgan");
 
 var app = express();
 
-var port = process.env.PORT || 3000;
-var host = process.env.IP || "localhost";
+var port = process.env.PORT;
 
 app.use(morgan("dev"));
 
@@ -16,6 +15,4 @@ app.get('/', function(req,res){
     });
 });
 
-app.listen(port, host, function(){
-    console.log(`https://${host}:${port}/`);
-})
+app.listen(port)
