@@ -4,6 +4,7 @@
   "description": " get the IP address, language and operating system for browser",
   "main": "app.js",
   "scripts": {
+    "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Concepsheon Hall",
